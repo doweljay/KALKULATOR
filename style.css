@@ -29,8 +29,6 @@ body {
         0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
-/* Display */
-
 .display {
     width: 100%;
     margin-bottom: 20px;
@@ -53,9 +51,6 @@ body {
     background: #333;
     color: white;
 }
-
-/* Buttons */
-
 .buttons {
     display: grid;
 
@@ -89,9 +84,6 @@ button:hover {
 button:active {
     transform: scale(0.95);
 }
-
-/* Operators */
-
 .operator {
     background: #ff9500;
 }
@@ -99,9 +91,6 @@ button:active {
 .operator:hover {
     background: #ffab2e;
 }
-
-/* Clear */
-
 .clear {
     background: #d9534f;
 }
@@ -109,9 +98,6 @@ button:active {
 .clear:hover {
     background: #e96b67;
 }
-
-/* Equal */
-
 .equals {
     background: #28a745;
 }
@@ -119,9 +105,6 @@ button:active {
 .equals:hover {
     background: #34c759;
 }
-
-/* Zero button */
-
 .zero {
     grid-column: span 2;
 }
