@@ -11,9 +11,6 @@ function clearDisplay() {
 function deleteLast() {
     display.value = display.value.slice(0, -1);
 }
-
-
-// Put lyrics that you have permission to use here
 const lyrics = [
     "Was they a lifetime ",
     "Waiting for us",
@@ -44,11 +41,8 @@ function calculate() {
             display.value = "Error";
             return;
         }
-
-        // Show the answer first
         display.value = result;
 
-        // Play the song
         const song = document.getElementById("lifetimeSong");
 
         if (song) {
@@ -56,7 +50,6 @@ function calculate() {
             song.play();
         }
 
-        // Start showing lyrics
         lyricIndex = 0;
         showNextLyric();
 
@@ -66,7 +59,6 @@ function calculate() {
 }
 
 
-// Show a new lyric every 2 seconds
 function showNextLyric() {
 
     if (lyricIndex >= lyrics.length) {
